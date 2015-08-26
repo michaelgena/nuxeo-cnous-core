@@ -1,0 +1,23 @@
+<component name="org.nuxeo.crous.computer.group.local.group.config">
+  <require>org.nuxeo.ecm.platform.computedgroups.ComputedGroupsServiceImpl
+  </require>
+
+  <extension
+    target="org.nuxeo.ecm.platform.computedgroups.ComputedGroupsServiceImpl"
+    point="computer">
+    <groupComputer name="localGroup">
+      <computer>org.nuxeo.crous.security.CNOUSLocalGroupComputerGroup
+      </computer>
+    </groupComputer>
+  </extension>
+
+  <extension
+    target="org.nuxeo.ecm.platform.computedgroups.ComputedGroupsServiceImpl"
+    point="computerChain">
+    <groupComputerChain append="true">
+      <computers>
+        <computer>localGroup</computer>
+      </computers>
+    </groupComputerChain>
+  </extension>
+</component>

@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: bjalon
+Build-Jdk: 1.7.0_11
+Bundle-ManifestVersion: 2
+Bundle-Version: 5.6
+Bundle-Vendor: Nuxeo
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Bundle-Name: nuxeo-cnous-core
+Bundle-SymbolicName: nuxeo-cnous-core
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Nuxeo-Component: OSGI-INF/local-group-computer-group-contrib.xml
+
