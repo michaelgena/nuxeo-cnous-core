@@ -1,7 +1,0 @@
-Manifest-Version: 1.0
-Built-By: mgena
-Build-Jdk: 1.8.0_45
-Bundle-ManifestVersion: 2
-Bundle-Version: 5.8-t${buildNumber}
-Created-By: Maven Integration for Eclipse
-

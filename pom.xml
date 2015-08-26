@@ -52,12 +52,12 @@
       <groupId>org.nuxeo.ecm.platform</groupId>
       <artifactId>nuxeo-platform-usermanager-api</artifactId>
     </dependency>
-    <dependency>
+    <!--dependency>
       <groupId>nuxeo-studio</groupId>
       <artifactId>montpellier-project-nuxeo</artifactId>
       <version>0.0.0-SNAPSHOT</version>
       <scope>test</scope>
-    </dependency>
+    </dependency-->
   </dependencies>
   <build>
     <plugins>
@@ -86,16 +86,6 @@
       </releases>
       <snapshots>
         <enabled>true</enabled>
-      </snapshots>
-    </repository>
-    <repository>
-      <id>public</id>
-      <url>http://maven.nuxeo.org/nexus/content/groups/public</url>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>false</enabled>
       </snapshots>
     </repository>
     <repository>
